@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-07-09 22:42:04 by Eclipse SUMO sumo Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="E:/Program Files/PyWorkstation/AF_GLOSA/sumo/inter.net.xml"/>
+        <route-files value="E:/Program Files/PyWorkstation/AF_GLOSA/sumo/inter.rou.xml,E:/Program Files/PyWorkstation/AF_GLOSA/sumo/inter2.rou.xml"/>
+        <additional-files value="E:/Program Files/PyWorkstation/AF_GLOSA/sumo/E2.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="E:/Program Files/PyWorkstation/AF_GLOSA/sumo/tripinfo.tr"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.5"/>
+        <ignore-junction-blocker value="100000"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="E:/Program Files/PyWorkstation/AF_GLOSA/sumo/inter.settings.xml"/>
+        <start value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="0.0" depart="0.00" departLane="E15_0" departPos="5.10" departPosLat="0.00" departSpeed="0.00" departDelay="0.00" arrival="254.00" arrivalLane="E20_1" arrivalPos="286.40" arrivalPosLat="0.00" arrivalSpeed="11.00" duration="254.00" routeLength="2485.37" waitingTime="7.00" waitingCount="4" stopTime="0.00" timeLoss="26.49" rerouteNo="0" devices="tripinfo_0.0" vType="type1" speedFactor="1.08" vaporized=""/>
+    <tripinfo id="0.1" depart="13.00" departLane="E15_0" departPos="5.10" departPosLat="0.00" departSpeed="0.00" departDelay="1.00" arrival="262.00" arrivalLane="E20_0" arrivalPos="286.40" arrivalPosLat="0.00" arrivalSpeed="11.00" duration="249.00" routeLength="2485.37" waitingTime="1.00" waitingCount="1" stopTime="0.00" timeLoss="21.62" rerouteNo="0" devices="tripinfo_0.1" vType="type3" speedFactor="1.20" vaporized=""/>
+    <tripinfo id="0.2" depart="24.00" departLane="E15_0" departPos="5.10" departPosLat="0.00" departSpeed="0.00" departDelay="0.00" arrival="284.00" arrivalLane="E20_0" arrivalPos="286.40" arrivalPosLat="0.00" arrivalSpeed="11.00" duration="260.00" routeLength="2485.37" waitingTime="7.00" waitingCount="3" stopTime="0.00" timeLoss="32.81" rerouteNo="0" devices="tripinfo_0.2" vType="type3" speedFactor="1.05" vaporized=""/>
+    <tripinfo id="0.3" depart="36.00" departLane="E15_0" departPos="5.10" departPosLat="0.00" departSpeed="0.00" departDelay="0.00" arrival="291.00" arrivalLane="E20_1" arrivalPos="286.40" arrivalPosLat="0.00" arrivalSpeed="11.00" duration="255.00" routeLength="2485.37" waitingTime="10.00" waitingCount="4" stopTime="0.00" timeLoss="27.49" rerouteNo="0" devices="tripinfo_0.3" vType="type1" speedFactor="1.08" vaporized=""/>
+    <tripinfo id="0.5" depart="60.00" departLane="E15_0" departPos="5.10" departPosLat="0.00" departSpeed="0.00" departDelay="0.00" arrival="324.00" arrivalLane="E20_1" arrivalPos="286.40" arrivalPosLat="-1.00" arrivalSpeed="11.00" duration="264.00" routeLength="2485.37" waitingTime="7.00" waitingCount="2" stopTime="0.00" timeLoss="35.91" rerouteNo="0" devices="tripinfo_0.5" vType="type3" speedFactor="1.02" vaporized=""/>
+    <tripinfo id="0.7" depart="84.00" departLane="E15_0" departPos="5.10" departPosLat="0.00" departSpeed="0.00" departDelay="0.00" arrival="356.00" arrivalLane="E20_1" arrivalPos="286.40" arrivalPosLat="0.00" arrivalSpeed="11.00" duration="272.00" routeLength="2485.37" waitingTime="7.00" waitingCount="2" stopTime="0.00" timeLoss="42.99" rerouteNo="0" devices="tripinfo_0.7" vType="type3" speedFactor="0.92" vaporized=""/>
+    <tripinfo id="0.10" depart="120.00" departLane="E15_0" departPos="5.10" departPosLat="0.00" departSpeed="0.00" departDelay="0.00" arrival="417.00" arrivalLane="E20_1" arrivalPos="286.40" arrivalPosLat="0.00" arrivalSpeed="11.00" duration="297.00" routeLength="2485.37" waitingTime="24.00" waitingCount="3" stopTime="0.00" timeLoss="68.05" rerouteNo="0" devices="tripinfo_0.10" vType="type5" speedFactor="0.93" vaporized=""/>
+    <tripinfo id="0" depart="11.00" departLane="E15_0" departPos="5.10" departPosLat="0.00" departSpeed="0.00" departDelay="0.00" arrival="424.00" arrivalLane="E20_0" arrivalPos="286.40" arrivalPosLat="0.00" arrivalSpeed="7.00" duration="413.00" routeLength="2485.37" waitingTime="24.00" waitingCount="3" stopTime="0.00" timeLoss="57.13" rerouteNo="0" devices="tripinfo_0" vType="type0" speedFactor="0.98" vaporized=""/>
+</tripinfos>

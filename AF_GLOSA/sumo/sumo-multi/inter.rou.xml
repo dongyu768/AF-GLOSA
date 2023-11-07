@@ -1,0 +1,26 @@
+<routes>
+    <vType id="type1" accel="6.0" decel="6.0" sigma="0.5" length="5" maxSpeed="11" minGap="2" carFollowModel="IDM" probability="0.1"/>
+	<vType id="type2" accel="5.0" decel="4.5" sigma="0.5" length="5" maxSpeed="7" minGap="2" carFollowModel="IDM" probability="0.2"/>
+	<vType id="type3" accel="3.0" decel="5.0" sigma="0.5" length="5" maxSpeed="11" minGap="2" carFollowModel="IDM" probability="0.3"/>
+	<vType id="type4" accel="3.0" decel="3.0" sigma="0.5" length="5" maxSpeed="7" minGap="2" carFollowModel="IDM" probability="0.3"/>
+	<vType id="type5" accel="2.0" decel="1.5" sigma="0.5" length="5" maxSpeed="11" minGap="2" carFollowModel="IDM" probability="0.1"/>
+    <vTypeDistribution id="typedist1" vTypes="type1 type2 type3 type4 type5"/>
+
+
+	
+	<route id="route1" edges="E15 E16 E19 E14 -E14 -E12 E20"/>
+	<!--
+	<route id="route2" edges="E10 E11 E12 E16"/>
+	<route id="route3" edges="E0 E1 E6 E9"/>
+	<route id="route4" edges="E10 -E2 E1 E6 E8 E16"/>
+	-->
+	
+	<flow id="0" begin="0" end= "3600" number="300" type="typedist1" route="route1" />
+	<!--
+	<flow id="1" begin="0" end= "3600" number="200" type="typedist1" route="route2" />
+	<flow id="2" begin="0" end= "3600" number="500" type="typedist1" route="route3" />
+	<flow id="3" begin="0" end= "3600" number="600" type="typedist1" route="route4" />
+	-->
+	
+	
+</routes>

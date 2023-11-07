@@ -1,0 +1,5 @@
+<routes>
+<vType id="type0" sigma="0" length="5" maxSpeed="7" minGap="2" />
+<route id="route0" edges="E15 E16 E19 E14 -E14 -E12 E20"/>
+<vehicle id="0" type="type0" route="route0" depart="11" color="red" />
+</routes>

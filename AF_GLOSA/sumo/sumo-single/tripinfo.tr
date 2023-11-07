@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-08-09 08:27:30 by Eclipse SUMO sumo Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="E:/Program Files/PyWorkstation/BProject/newBaseline/sumo/inter.net.xml"/>
+        <route-files value="E:/Program Files/PyWorkstation/BProject/newBaseline/sumo/inter.rou.xml,E:/Program Files/PyWorkstation/BProject/newBaseline/sumo/inter2.rou.xml"/>
+        <additional-files value="E:/Program Files/PyWorkstation/BProject/newBaseline/sumo/E2.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="E:/Program Files/PyWorkstation/BProject/newBaseline/sumo/tripinfo.tr"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.5"/>
+        <ignore-junction-blocker value="100000"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="E:/Program Files/PyWorkstation/BProject/newBaseline/sumo/inter.settings.xml"/>
+        <start value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="0.0" depart="0.00" departLane="E0_0" departPos="5.10" departPosLat="0.00" departSpeed="0.00" departDelay="0.00" arrival="97.00" arrivalLane="E1_0" arrivalPos="486.40" arrivalPosLat="0.00" arrivalSpeed="11.00" duration="97.00" routeLength="994.90" waitingTime="1.00" waitingCount="1" stopTime="0.00" timeLoss="5.77" rerouteNo="0" devices="tripinfo_0.0" vType="type1" speedFactor="1.08" vaporized=""/>
+    <tripinfo id="0.1" depart="12.00" departLane="E0_0" departPos="5.10" departPosLat="0.00" departSpeed="0.00" departDelay="0.00" arrival="105.00" arrivalLane="E1_0" arrivalPos="486.40" arrivalPosLat="0.00" arrivalSpeed="11.00" duration="93.00" routeLength="994.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.02" rerouteNo="0" devices="tripinfo_0.1" vType="type3" speedFactor="1.20" vaporized=""/>
+    <tripinfo id="0.2" depart="24.00" departLane="E0_0" departPos="5.10" departPosLat="0.00" departSpeed="0.00" departDelay="0.00" arrival="128.00" arrivalLane="E1_0" arrivalPos="486.40" arrivalPosLat="0.00" arrivalSpeed="11.00" duration="104.00" routeLength="994.90" waitingTime="3.00" waitingCount="2" stopTime="0.00" timeLoss="12.87" rerouteNo="0" devices="tripinfo_0.2" vType="type3" speedFactor="1.05" vaporized=""/>
+    <tripinfo id="0.3" depart="36.00" departLane="E0_0" departPos="5.10" departPosLat="0.00" departSpeed="0.00" departDelay="0.00" arrival="128.00" arrivalLane="E1_1" arrivalPos="486.40" arrivalPosLat="0.00" arrivalSpeed="11.00" duration="92.00" routeLength="994.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.39" rerouteNo="0" devices="tripinfo_0.3" vType="type1" speedFactor="1.08" vaporized=""/>
+    <tripinfo id="0" depart="21.00" departLane="E0_0" departPos="5.10" departPosLat="0.00" departSpeed="0.00" departDelay="0.00" arrival="148.00" arrivalLane="E1_0" arrivalPos="486.40" arrivalPosLat="0.00" arrivalSpeed="8.00" duration="127.00" routeLength="994.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="35.89" rerouteNo="0" devices="tripinfo_0" vType="type0" speedFactor="0.98" vaporized=""/>
+</tripinfos>

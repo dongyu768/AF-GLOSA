@@ -1,0 +1,14 @@
+<additional>
+    <laneAreaDetector file="e2output.xml" freq="1" friendlyPos="x" id="e2det_-E1_0" lane="-E1_0" length="300" pos="186.29999999999998"/>
+    <laneAreaDetector file="e2output.xml" freq="1" friendlyPos="x" id="e2det_-E1_1" lane="-E1_1" length="300" pos="186.29999999999998"/>
+    <laneAreaDetector file="e2output.xml" freq="1" friendlyPos="x" id="e2det_-E1_2" lane="-E1_2" length="300" pos="186.29999999999998"/>
+    <laneAreaDetector file="e2output.xml" freq="1" friendlyPos="x" id="e2det_-E2_0" lane="-E2_0" length="300" pos="186.29999999999998"/>
+    <laneAreaDetector file="e2output.xml" freq="1" friendlyPos="x" id="e2det_-E2_1" lane="-E2_1" length="300" pos="186.29999999999998"/>
+    <laneAreaDetector file="e2output.xml" freq="1" friendlyPos="x" id="e2det_-E2_2" lane="-E2_2" length="300" pos="186.29999999999998"/>
+    <laneAreaDetector file="e2output.xml" freq="1" friendlyPos="x" id="e2det_-E3_0" lane="-E3_0" length="300" pos="186.29999999999998"/>
+    <laneAreaDetector file="e2output.xml" freq="1" friendlyPos="x" id="e2det_-E3_1" lane="-E3_1" length="300" pos="186.29999999999998"/>
+    <laneAreaDetector file="e2output.xml" freq="1" friendlyPos="x" id="e2det_-E3_2" lane="-E3_2" length="300" pos="186.29999999999998"/>
+    <laneAreaDetector file="e2output.xml" freq="1" friendlyPos="x" id="e2det_E0_0" lane="E0_0" length="300" pos="186.29999999999998"/>
+    <laneAreaDetector file="e2output.xml" freq="1" friendlyPos="x" id="e2det_E0_1" lane="E0_1" length="300" pos="186.29999999999998"/>
+    <laneAreaDetector file="e2output.xml" freq="1" friendlyPos="x" id="e2det_E0_2" lane="E0_2" length="300" pos="186.29999999999998"/>
+</additional>
